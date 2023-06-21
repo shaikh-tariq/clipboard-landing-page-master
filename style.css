@@ -1,0 +1,614 @@
+:root {
+  --primary-color: rgb(38, 186, 164);
+  --primary-color2: rgb(97, 115, 255);
+  --primary-font: rgb(76, 84, 93);
+  --secondary-font: rgb(159, 171, 178);
+}
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Bai Jamjuree;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.social-media img {
+  transition: 0.25s;
+}
+
+.nav ul li a {
+  transition: 0.25s;
+}
+
+button {
+  transition: 0.25s;
+}
+
+
+header {
+  position: absolute;
+}
+
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: block;
+}
+
+
+/* hero section starts here  */
+
+.hero {
+  text-align: center;
+  padding-top: 120px;
+  margin-bottom: 120px;
+}
+
+.hero h1 {
+  color: var(--primary-font);
+  font-size: 30px;
+  margin-inline: 26px;
+}
+
+.hero p {
+  color: var(--secondary-font);
+  margin-inline: 30px;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+button {
+  padding: 20px 80px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+.ios {
+  background-color: var(--primary-color);
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(38, 186, 164, 0.5);
+}
+
+.mac {
+  background-color: var(--primary-color2);
+  box-shadow: 0 0 20px rgba(97, 115, 255, 0.2);
+}
+
+
+/* hero section ends here  */
+
+/* track section starts here  */
+
+
+.track {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+.heading-track {
+  margin-bottom: 80px;
+}
+
+.heading-track h2 {
+  color: var(--primary-font);
+  font-size: 30px;
+}
+
+.heading-track p {
+  color: var(--secondary-font);
+  margin-inline: 34px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+
+.left-track img {
+  width: 300px;
+
+  margin-bottom: 50px;
+}
+
+.right-track h3 {
+  color: var(--primary-font);
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.right-track p {
+  color: var(--secondary-font);
+  margin-inline: 34px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 0;
+  margin-bottom: 45px;
+}
+
+/* track section ends here  */
+
+/* access section starts here  */
+
+.access {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.access h2 {
+  color: var(--primary-font);
+  font-size: 30px;
+}
+
+.access p {
+  color: var(--secondary-font);
+  margin-inline: 34px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 45px;
+}
+
+.access img {
+  width: 350px;
+}
+
+
+/* access section starts here  */
+
+/* supercharge section starts here  */
+
+.supercharge {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.supercharge h2 {
+  color: var(--primary-font);
+  font-size: 30px;
+}
+
+.supercharge p {
+  color: var(--secondary-font);
+  margin-inline: 34px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 45px;
+}
+
+.card h3 {
+  color: var(--primary-font);
+  font-size: 25px;
+}
+
+.card p {
+  color: var(--secondary-font);
+  margin-inline: 34px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 45px;
+}
+
+/* supercharge section ends here  */
+
+/* sponsors section starts here  */
+
+
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.sponsors img {
+  margin-bottom: 80px;
+  width: auto;
+}
+
+/* sponsors section ends here  */
+
+
+.clipboard {
+  text-align: center;
+  margin-bottom: 140px;
+}
+
+.clipboard h2 {
+  color: var(--primary-font);
+  font-size: 30px;
+  margin-inline: 30px;
+  font-weight: bold;
+}
+
+.clipboard p {
+  color: var(--secondary-font);
+  margin-inline: 34px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 45px;
+}
+
+/* .clipboard section ends here  */
+
+/* footer section starts here  */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f6f8;
+}
+
+.footer-img {
+  width: 65px;
+  height: 65px;
+  padding-top: 30px;
+  margin-bottom: 25px;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: var(--secondary-font);
+  font-size: 20px;
+}
+
+.nav ul li {
+  margin-top: 14px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin: 40px 0;
+}
+
+/* mobile version ends here */
+
+
+/* Tablet version starts here  */
+
+@media only screen and (min-width: 375px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+
+
+@media only screen and (min-width: 768px) {
+  .ios {
+    margin-right: 20px;
+  }
+
+  .mac {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+
+ /* hero section starts here  */
+
+  .hero p {
+    margin-inline: 270px;
+    line-height: 28px;
+  }
+
+  /* hero section ends here  */
+
+  /* track section starts here  */
+
+  
+  .heading-track p {
+    margin-inline: 230px;
+    line-height: 28px;
+  }
+
+
+  .container-track {
+    display: flex;
+  }
+
+  .left-track {
+    position: relative;
+    left: -30px;
+
+  }
+  .left-track img {
+    width: 600px;
+  }
+  .right-track  {
+    display: block;
+    text-align: left;
+    margin-inline: 65px;
+  }
+  .right-track p {
+    margin: 0;
+    margin-bottom: 35px;
+  }
+
+
+  /* track section ends here  */
+
+  /* access section starts here  */
+
+  .access p {
+    margin-inline: 230px;
+    line-height: 28px;
+  }
+
+  .access img {
+    width: 600px;
+  }
+
+
+  /* access section ends here  */
+
+  /* supercharge section starts here  */
+
+  .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .C-first, .C-second, .C-third {
+    width: 500px;
+  }
+
+
+  /* supercharge section ends here  */
+
+  /* sponsors section starts here  */
+
+  .sponsors {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sponsors {
+    gap: 50px;
+  }
+
+  /* sponsors section ends here  */
+
+  /* clipboard section starts here  */
+
+  .clipboard p {
+    margin-inline: 230px;
+    line-height: 28px;
+  }
+
+  /* clipboard section ends here  */
+
+  /* footer section starts here  */
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-inline: 50px;
+  }
+  
+  .nav {
+    margin-right: 40px;
+  }
+
+  .nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: start;
+    margin-top: 0;
+  
+  }
+
+  .nav li {
+    display: block;
+    margin-top: 0;
+}
+
+.nav ul li a {
+  font-size: 18px;
+  margin-top: 0;
+  margin-right: 30px;
+}
+
+/* footer ends here  */
+
+/* end of media 1080 px */
+
+
+@media only screen and (min-width: 1440px) {
+
+
+  /* hero section starts here  */
+
+
+  .hero p {
+    margin-inline: 350px;
+    line-height: 32px;
+    font-size: 20px;
+  }
+
+  .hero h1 {
+    font-size: 45px;
+  }
+
+  button {
+    border-radius: 55px;
+  }
+
+  /* hero section ends here  */
+
+
+  /* track section starts here  */
+
+
+  .heading-track h2 {
+    font-size: 35px;
+
+  }
+
+  .heading-track p {
+    margin-inline: 320px;
+    line-height: 32px;
+    font-size: 20px;
+  }
+
+  .left-track img {
+    width: 700px;
+  }
+
+  .right-track {
+    margin-top: 100px;
+  }
+  .right-track p {
+    margin-right: 260px;
+  }
+
+  /* track section ends here  */
+
+  /* access section starts here  */
+
+
+  .access {
+    margin-bottom: 80px;
+  }
+
+  .access h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .access p {
+    margin-inline: 320px;
+    line-height: 32px;
+    font-size: 20px;
+    margin-bottom: 80px;
+    margin-top: 0;
+  }
+
+  .access img {
+    width: 900px;
+  }
+
+  /* access section ends here  */
+
+  /* supercharge section ends here  */
+
+  .supercharge h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .supercharge p {
+    font-size: 18px;
+    margin-bottom: 80px;
+    margin-top: 0;
+  }
+  /* .card {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .card p {
+    margin-inline: 40px;
+  }
+
+  .card img{
+    width: 50px;
+  }
+
+  .C-first {
+    width: 600px;
+  } */
+
+  .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .C-first {
+    margin-left: 100px;
+    
+  }
+
+  .C-first {
+    margin-top: 20px;
+  }
+
+  .C-third {
+    margin-right: 100px;
+  }
+
+  /* supercharge section ends here  */
+
+  /* sponsors section starts here  */
+
+  
+  .sponsors {
+    gap: 90px;
+  }
+
+  /* sponsors section ends here  */
+
+  /* clipboard section starts here  */
+
+  .clipboard h2 {
+    font-size: 35px;
+
+  }
+
+  .clipboard p {
+    margin-inline: 320px;
+    line-height: 32px;
+    font-size: 20px;
+  }
+}
+
+/* ACTIVE STATUS STARTS HERE  */
+
+button:hover {
+  opacity: 0.6;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.nav ul li a:hover { 
+  color: var(--primary-color);
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.social-media img:hover {
+  fill: var(--primary-color);
+  transition: 0.25s;
+  cursor: pointer;
+}
